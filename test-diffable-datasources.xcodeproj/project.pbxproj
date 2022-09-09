@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		129A6534B5B5582686C053F6 /* Pods_test_diffable_datasourcesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8376B337B62E1103FCB5574 /* Pods_test_diffable_datasourcesTests.framework */; };
+		BCCFFA0CEB33A2C13A4EAFC9 /* Pods_test_diffable_datasources.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6C05E12F0FECBDC6CD89C81 /* Pods_test_diffable_datasources.framework */; };
 		CA9B26A528CB04D100C267C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9B26A428CB04D100C267C6 /* AppDelegate.swift */; };
 		CA9B26A728CB04D100C267C6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9B26A628CB04D100C267C6 /* SceneDelegate.swift */; };
 		CA9B26A928CB04D100C267C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9B26A828CB04D100C267C6 /* ViewController.swift */; };
@@ -16,6 +18,7 @@
 		CA9B26BC28CB04D300C267C6 /* test_diffable_datasourcesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9B26BB28CB04D300C267C6 /* test_diffable_datasourcesTests.swift */; };
 		CA9B26C628CB04D300C267C6 /* test_diffable_datasourcesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9B26C528CB04D300C267C6 /* test_diffable_datasourcesUITests.swift */; };
 		CA9B26C828CB04D300C267C6 /* test_diffable_datasourcesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9B26C728CB04D300C267C6 /* test_diffable_datasourcesUITestsLaunchTests.swift */; };
+		D3DB3F3585DA6635396CBCFF /* Pods_test_diffable_datasources_test_diffable_datasourcesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B3607690C2CC078536408D0 /* Pods_test_diffable_datasources_test_diffable_datasourcesUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A804F71667607BC79F923A4 /* Pods-test-diffable-datasourcesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test-diffable-datasourcesTests.debug.xcconfig"; path = "Target Support Files/Pods-test-diffable-datasourcesTests/Pods-test-diffable-datasourcesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		190FE7336612032273C31686 /* Pods-test-diffable-datasources-test-diffable-datasourcesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test-diffable-datasources-test-diffable-datasourcesUITests.release.xcconfig"; path = "Target Support Files/Pods-test-diffable-datasources-test-diffable-datasourcesUITests/Pods-test-diffable-datasources-test-diffable-datasourcesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3B3607690C2CC078536408D0 /* Pods_test_diffable_datasources_test_diffable_datasourcesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_test_diffable_datasources_test_diffable_datasourcesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		799B892398643D81876F6748 /* Pods-test-diffable-datasources-test-diffable-datasourcesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test-diffable-datasources-test-diffable-datasourcesUITests.debug.xcconfig"; path = "Target Support Files/Pods-test-diffable-datasources-test-diffable-datasourcesUITests/Pods-test-diffable-datasources-test-diffable-datasourcesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		805756670F635462F3CBF248 /* Pods-test-diffable-datasourcesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test-diffable-datasourcesTests.release.xcconfig"; path = "Target Support Files/Pods-test-diffable-datasourcesTests/Pods-test-diffable-datasourcesTests.release.xcconfig"; sourceTree = "<group>"; };
+		B871F2C66C8FD52EB23F3989 /* Pods-test-diffable-datasources.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test-diffable-datasources.debug.xcconfig"; path = "Target Support Files/Pods-test-diffable-datasources/Pods-test-diffable-datasources.debug.xcconfig"; sourceTree = "<group>"; };
+		C8376B337B62E1103FCB5574 /* Pods_test_diffable_datasourcesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_test_diffable_datasourcesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA9B26A128CB04D100C267C6 /* test-diffable-datasources.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "test-diffable-datasources.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA9B26A428CB04D100C267C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CA9B26A628CB04D100C267C6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +59,8 @@
 		CA9B26C128CB04D300C267C6 /* test-diffable-datasourcesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "test-diffable-datasourcesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA9B26C528CB04D300C267C6 /* test_diffable_datasourcesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_diffable_datasourcesUITests.swift; sourceTree = "<group>"; };
 		CA9B26C728CB04D300C267C6 /* test_diffable_datasourcesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_diffable_datasourcesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CACFB8932189E08E00D80A70 /* Pods-test-diffable-datasources.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test-diffable-datasources.release.xcconfig"; path = "Target Support Files/Pods-test-diffable-datasources/Pods-test-diffable-datasources.release.xcconfig"; sourceTree = "<group>"; };
+		F6C05E12F0FECBDC6CD89C81 /* Pods_test_diffable_datasources.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_test_diffable_datasources.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCCFFA0CEB33A2C13A4EAFC9 /* Pods_test_diffable_datasources.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				129A6534B5B5582686C053F6 /* Pods_test_diffable_datasourcesTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3DB3F3585DA6635396CBCFF /* Pods_test_diffable_datasources_test_diffable_datasourcesUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,8 @@
 				CA9B26BA28CB04D300C267C6 /* test-diffable-datasourcesTests */,
 				CA9B26C428CB04D300C267C6 /* test-diffable-datasourcesUITests */,
 				CA9B26A228CB04D100C267C6 /* Products */,
+				D437B60897CF9FFCBF84A13A /* Pods */,
+				EAFE095E0E03E6CF3BAE21F2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +144,30 @@
 			path = "test-diffable-datasourcesUITests";
 			sourceTree = "<group>";
 		};
+		D437B60897CF9FFCBF84A13A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B871F2C66C8FD52EB23F3989 /* Pods-test-diffable-datasources.debug.xcconfig */,
+				CACFB8932189E08E00D80A70 /* Pods-test-diffable-datasources.release.xcconfig */,
+				799B892398643D81876F6748 /* Pods-test-diffable-datasources-test-diffable-datasourcesUITests.debug.xcconfig */,
+				190FE7336612032273C31686 /* Pods-test-diffable-datasources-test-diffable-datasourcesUITests.release.xcconfig */,
+				0A804F71667607BC79F923A4 /* Pods-test-diffable-datasourcesTests.debug.xcconfig */,
+				805756670F635462F3CBF248 /* Pods-test-diffable-datasourcesTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EAFE095E0E03E6CF3BAE21F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6C05E12F0FECBDC6CD89C81 /* Pods_test_diffable_datasources.framework */,
+				3B3607690C2CC078536408D0 /* Pods_test_diffable_datasources_test_diffable_datasourcesUITests.framework */,
+				C8376B337B62E1103FCB5574 /* Pods_test_diffable_datasourcesTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CA9B26CB28CB04D300C267C6 /* Build configuration list for PBXNativeTarget "test-diffable-datasources" */;
 			buildPhases = (
+				6D2201B2119F1F542BC2B309 /* [CP] Check Pods Manifest.lock */,
 				CA9B269D28CB04D100C267C6 /* Sources */,
 				CA9B269E28CB04D100C267C6 /* Frameworks */,
 				CA9B269F28CB04D100C267C6 /* Resources */,
+				154C2DCC41E64FC709642DF7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CA9B26CE28CB04D300C267C6 /* Build configuration list for PBXNativeTarget "test-diffable-datasourcesTests" */;
 			buildPhases = (
+				043B4CC4EB25D8DAA7AB5EB5 /* [CP] Check Pods Manifest.lock */,
 				CA9B26B328CB04D300C267C6 /* Sources */,
 				CA9B26B428CB04D300C267C6 /* Frameworks */,
 				CA9B26B528CB04D300C267C6 /* Resources */,
@@ -169,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CA9B26D128CB04D300C267C6 /* Build configuration list for PBXNativeTarget "test-diffable-datasourcesUITests" */;
 			buildPhases = (
+				927F88063F432E8D7BFFD2EF /* [CP] Check Pods Manifest.lock */,
 				CA9B26BD28CB04D300C267C6 /* Sources */,
 				CA9B26BE28CB04D300C267C6 /* Frameworks */,
 				CA9B26BF28CB04D300C267C6 /* Resources */,
+				2BBF3B459F67A13577FC861F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,6 +298,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		043B4CC4EB25D8DAA7AB5EB5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-test-diffable-datasourcesTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		154C2DCC41E64FC709642DF7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-test-diffable-datasources/Pods-test-diffable-datasources-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-test-diffable-datasources/Pods-test-diffable-datasources-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-test-diffable-datasources/Pods-test-diffable-datasources-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2BBF3B459F67A13577FC861F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-test-diffable-datasources-test-diffable-datasourcesUITests/Pods-test-diffable-datasources-test-diffable-datasourcesUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-test-diffable-datasources-test-diffable-datasourcesUITests/Pods-test-diffable-datasources-test-diffable-datasourcesUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-test-diffable-datasources-test-diffable-datasourcesUITests/Pods-test-diffable-datasources-test-diffable-datasourcesUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D2201B2119F1F542BC2B309 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-test-diffable-datasources-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		927F88063F432E8D7BFFD2EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-test-diffable-datasources-test-diffable-datasourcesUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CA9B269D28CB04D100C267C6 /* Sources */ = {
@@ -432,6 +581,7 @@
 		};
 		CA9B26CC28CB04D300C267C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B871F2C66C8FD52EB23F3989 /* Pods-test-diffable-datasources.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -460,6 +610,7 @@
 		};
 		CA9B26CD28CB04D300C267C6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CACFB8932189E08E00D80A70 /* Pods-test-diffable-datasources.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -488,6 +639,7 @@
 		};
 		CA9B26CF28CB04D300C267C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A804F71667607BC79F923A4 /* Pods-test-diffable-datasourcesTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +660,7 @@
 		};
 		CA9B26D028CB04D300C267C6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 805756670F635462F3CBF248 /* Pods-test-diffable-datasourcesTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +681,7 @@
 		};
 		CA9B26D228CB04D300C267C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 799B892398643D81876F6748 /* Pods-test-diffable-datasources-test-diffable-datasourcesUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +700,7 @@
 		};
 		CA9B26D328CB04D300C267C6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 190FE7336612032273C31686 /* Pods-test-diffable-datasources-test-diffable-datasourcesUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

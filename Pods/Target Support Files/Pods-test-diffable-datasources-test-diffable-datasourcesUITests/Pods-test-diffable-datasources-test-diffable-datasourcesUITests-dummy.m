@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_test_diffable_datasources_test_diffable_datasourcesUITests : NSObject
+@end
+@implementation PodsDummy_Pods_test_diffable_datasources_test_diffable_datasourcesUITests
+@end

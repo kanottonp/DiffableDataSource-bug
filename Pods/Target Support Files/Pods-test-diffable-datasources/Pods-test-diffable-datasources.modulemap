@@ -1,0 +1,6 @@
+framework module Pods_test_diffable_datasources {
+  umbrella header "Pods-test-diffable-datasources-umbrella.h"
+
+  export *
+  module * { export * }
+}

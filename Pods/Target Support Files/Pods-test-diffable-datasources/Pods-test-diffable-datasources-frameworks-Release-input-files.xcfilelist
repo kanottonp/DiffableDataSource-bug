@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-test-diffable-datasources/Pods-test-diffable-datasources-frameworks.sh
+${BUILT_PRODUCTS_DIR}/DiffableDataSources/DiffableDataSources.framework
+${BUILT_PRODUCTS_DIR}/DifferenceKit/DifferenceKit.framework
